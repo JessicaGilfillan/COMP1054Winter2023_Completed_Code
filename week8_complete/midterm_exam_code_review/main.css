@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'abelregular';
+    src:
+        url('./assets/abel-regular-webfont.woff2') format('woff2'),
+        url('./assets/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Element Selector */
+h1,
+h2,
+h3 {
+    font-family: 'Tilt Prism', cursive;
+}
+
+body {
+    font-family: 'abelregular', sans-serif;
+    font-size: 1.125rem;
+}
+
+/* Class Selector */
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #BADA55;
+}
+
+/* Context Selector */
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3em 2em;
+    position: sticky;
+    bottom: 0;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    width: 50%;
+}
+
+/* Pseudo Class Selector */
+tbody tr:nth-of-type(odd) {
+    background-color: #333;
+    color: #fff;
+}

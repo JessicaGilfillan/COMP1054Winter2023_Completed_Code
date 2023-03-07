@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 960px; 
+    margin: 0 auto; 
+    /*border: 5px solid red; */
+    overflow: hidden;
+    background-color: purple; 
+}
+
+body {
+    font-family: 'Tilt Warp', cursive;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav {
+    height: 100px;
+    background-color: #3772ff;
+}
+
+aside {
+    height: 300px;
+    width: 200px; 
+    background-color: #F038FF;
+    float: left; 
+}
+
+article {
+    height: 500px;
+    width: 760px;
+    background-color: #EF709D;
+    float:left; 
+
+}
+
+footer {
+    height: 200px;
+    background-color: #E2EF70;
+    clear: both;
+}
+
+
+
+
+
+

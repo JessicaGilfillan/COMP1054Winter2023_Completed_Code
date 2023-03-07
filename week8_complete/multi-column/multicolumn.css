@@ -1,0 +1,14 @@
+.wrapper {
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+article {
+    column-width: 20vw; 
+    column-gap: 50px;
+    column-rule: thick inset #BADA55;  
+}
+
+h2 {
+   column-span: all;  
+}
